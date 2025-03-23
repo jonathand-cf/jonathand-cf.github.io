@@ -1,6 +1,9 @@
 ---
-layout: post
 title:  "Dett er en test!"
+categories: 
+  - test
+tags:
+  - update
 ---
 
 # Welcome
