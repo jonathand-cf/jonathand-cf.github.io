@@ -15,7 +15,7 @@ remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "nb-NO"
+locale                   : "no-NB"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Jonathancf"
 title_separator          : "-"
