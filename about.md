@@ -1,6 +1,6 @@
 ---
 title: Om meg
-layout: page
+layout: home
 ---
 
 ## Hei!
