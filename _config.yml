@@ -26,7 +26,7 @@ url                      : "https://jonathancf.dev/" # the base hostname & proto
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jonathand-cf/jonathand-cf.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/DALEE.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/1654557885339.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Jonathan Fedje"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hei, jeg heter Jonathan Fedje og studerer dataingeniør ved Universitetet i Agder. Jeg jobber deltid som programvareingeniør i UiASub og har tidligere hatt stillinger hos IKT Agder og POWER Norge AS. Gjennom læretiden hos IKT Agder fikk jeg karakteren «Bestått meget godt», og jeg har opparbeidet meg gode ferdigheter innen kommunikasjon, kundeservice og teknisk problemløsning. Jeg trives med å jobbe i team, behersker engelsk godt og har stor interesse for teknologi og innovasjon."
+  bio              : "Hei, jeg heter Jonathan Fedje og studerer dataingeniør ved Universitetet i Agder. Jeg jobber deltid som programvareingeniør i UiASub. Jeg har erfaring fra IKT Agder og POWER Norge AS innen kommunikasjon, kundeservice og teknisk problemløsning. Jeg trives med teamarbeid og har stor interesse for teknologi og innovasjon."
   location         : "Grimstad | Norway"
   email            :
   links:
