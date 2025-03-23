@@ -17,20 +17,20 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "nb-NO"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Jonathan's"
+title                    : "Jonathancf"
 title_separator          : "-"
 subtitle                 : "dev blog" # site tagline that appears below site title in masthead
 name                     : "Jonathan Fedje"
 description              : "Dokumentasjon og prosjekter som jeg har lagd"
 url                      : "https://jonathancf.dev/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/about" # the subpath of your site, e.g. "/blog"
 repository               : "jonathand-cf/jonathand-cf.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/1654557885339.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "dev blog" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : true # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
@@ -69,7 +69,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
 search                   : true # true, false (default)
-search_full_content      : # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
@@ -114,10 +114,10 @@ analytics:
 # Site Author
 author:
   name             : "Jonathan Fedje"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/1654557885339.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Studerer dataingeniørstudent ved UiA, programvareingeniør hos UiASub, interessert i teknologi og innovasjon."
   location         : "Grimstad | Norway"
-  email            :
+  email            : "seJonathanda@pm.me"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
