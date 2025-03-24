@@ -1,13 +1,13 @@
 # main links
 main:
-  - title: "Om meg"
+  - title: "About"
     url: /about/
 
-  - title: "Innlegg"
+  - title: "Posts"
     url: /categories/
 
-  - title: "Sider"
+  - title: "All Pages"
     url: /sitemap/
   
-  - title: CV
+  - title: "Curriculum Vitae"
     url: /jonathancv.pdf
