@@ -1,31 +1,8 @@
 #particles-js {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
-  z-index: 0;
+  z-index: -1;
   top: 0;
   left: 0;
-}
-
-.initial-content {
-  position: relative;
-  min-height: 400px; /* or as needed */
-  overflow: hidden;
-}
-
-.overlay-text {
-  position: absolute;
-  top: 30%;
-  left: 10%;
-  z-index: 1;
-  color: #ccc;
-  font-size: 1.2rem;
-  max-width: 600px;
-  line-height: 1.6;
-}
-
-.overlay-text a {
-  color: #f25;
-  text-decoration: none;
-  font-size: 1rem;
 }
