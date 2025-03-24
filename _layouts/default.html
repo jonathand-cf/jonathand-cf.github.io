@@ -14,10 +14,17 @@
     {% include_cached masthead.html %}
 
     <div class="initial-content">
-      {{ content }}
       <div id="particles-js"></div>
+    
+      <div class="overlay-text">
+        🚀 This is my <strong>dev blog</strong> where I share updates, personal projects, and everything tech I'm passionate about.<br>
+        <a href="https://github.com/jonathand-cf/jonathand-cf.github.io" target="_blank">🛠 View the source code on GitHub</a>
+      </div>
+    
+      {{ content }}
       {% include after-content.html %}
     </div>
+    
 
     {% if site.search == true %}
       <div class="search-content">
