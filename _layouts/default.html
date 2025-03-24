@@ -12,10 +12,12 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
-      <div class="initial-content">
-        {{ content }}
-        {% include after-content.html %}
-      </div>
+
+    <div class="initial-content">
+      {{ content }}
+      {% include after-content.html %}
+    </div>
+
     {% if site.search == true %}
       <div class="search-content">
         {% include_cached search/search_form.html %}
@@ -30,6 +32,5 @@
     </div>
 
     {% include scripts.html %}
-
   </body>
 </html>
