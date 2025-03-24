@@ -1,0 +1,30 @@
+/* skill bars */
+.skill-bar {
+    margin-bottom: 1.5rem;
+  }
+  
+  .skill-bar-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  
+  .skill-bar-bg {
+    background-color: #e6e6e6; /* Light grey background */
+    border-radius: 3px;
+    overflow: hidden;
+    height: 1.2rem;
+    position: relative;
+  }
+  
+  .skill-bar-fill {
+    background-color: #c0392b; /* The "fill" color (red in example) */
+    height: 100%;
+  }
+  
+  .skill-bar-percentage {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

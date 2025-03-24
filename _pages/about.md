@@ -70,3 +70,9 @@ Programs:
 ![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=black)
 
 ---
+
+## Programming Skills
+
+{% include skill-bar.html name="Git" percent="60" %}
+{% include skill-bar.html name="C/C++" percent="30" %}
+{% include skill-bar.html name="Python" percent="20" %}
