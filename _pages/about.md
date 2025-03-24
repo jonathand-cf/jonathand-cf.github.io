@@ -22,18 +22,18 @@ Feel free to reach out if you’d like to discuss technology or innovation!
 Roles:
 <br>
 ![System Administrator](https://img.shields.io/badge/System-Administrator-blue?style=for-the-badge&logo=microsoft-office&logoColor=white)
-![Cloud Architect](https://img.shields.io/badge/Cloud-Architect-blue?style=for-the-badge&logo=microsoft-office&logoColor=white)
+![Cyber Security](https://img.shields.io/badge/Cyber-Sec-black?style=for-the-badge&logo=microsoft-office&logoColor=white)
 ![IT Service](https://img.shields.io/badge/IT-Service-blue?style=for-the-badge&logo=microsoft-office&logoColor=white)
 
 Languages:
 <br>
 ![C](https://img.shields.io/badge/C-%231572B6.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-Cppcplusplus-E10098?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-%231572B6?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Bash](https://img.shields.io/badge/gnubash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
 
 Operating Sytems:
@@ -42,6 +42,7 @@ Operating Sytems:
 ![Kali](https://img.shields.io/badge/Kali%20Linux-000000?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 Tools & Services:
@@ -49,7 +50,7 @@ Tools & Services:
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Wireguard](https://img.shields.io/badge/wireguard-%2388171A.svg?style=for-the-badge&logo=wireguard&logoColor=white)
 ![Wordpress](https://img.shields.io/badge/Wordpress-0078D6?style=for-the-badge&logo=wordpress&logoColor=white)
-![Traefik](https://img.shields.io/badge/Traefik-red?style=for-the-badge&logo=microsoft-office&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik-red?style=for-the-badge&logo=traefikproxy&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![VMware](https://img.shields.io/badge/vmware-07405E?style=for-the-badge&logo=vmware&logoColor=white)
 ![VirtualBox](https://img.shields.io/badge/virtualbox-0078D6?style=for-the-badge&logo=virtualbox&logoColor=white)
