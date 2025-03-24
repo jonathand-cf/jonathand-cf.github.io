@@ -1,10 +1,10 @@
 tsParticles.load("tsparticles", {
+  background: {
+    color: "#000"
+  },
   fullScreen: {
     enable: true,
     zIndex: -1
-  },
-  background: {
-    color: "#000"
   },
   particles: {
     number: {
@@ -24,33 +24,31 @@ tsParticles.load("tsparticles", {
       }
     },
     size: {
-      value: 16,
+      value: 20,
       random: false
-    },
-    move: {
-      enable: true,
-      speed: 2,
-      direction: "none",
-      outModes: {
-        default: "destroy"
-      }
     },
     opacity: {
       value: 1
+    },
+    move: {
+      enable: false
     }
   },
-  emitters: {
-    position: {
-      x: 50,
-      y: 50
-    },
-    rate: {
-      quantity: 1,
-      delay: 0.1
-    },
-    size: {
-      width: 0,
-      height: 0
+  emitters: [
+    {
+      direction: "none",
+      life: {
+        count: 1,
+        duration: 0.1
+      },
+      rate: {
+        quantity: 200,
+        delay: 0.1
+      },
+      position: {
+        x: 50,
+        y: 50
+      }
     }
-  }
+  ]
 });
