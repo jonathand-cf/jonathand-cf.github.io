@@ -2,73 +2,94 @@
 title: "Navigation"
 permalink: /write-ups/
 excerpt: "Instructions on how to customize the main navigation and enabling breadcrumb links."
-last_modified_at: 2018-03-20T15:59:40-04:00
+tags:
+  - table of contents
 toc: true
+toc_sticky: true
 ---
 
-Customize site navigational links through a Jekyll data file.
-
-## Masthead
-
-The masthead links use a "priority plus" design pattern. Meaning, show as many navigation items that will fit horizontally with a toggle to reveal the rest.
-
-To define these links add titles and URLs under the `main` key in `_data/navigation.yml`:
+"Stick" table of contents to the top of a page by adding `toc_sticky: true` to its YAML Front Matter.
 
 ```yaml
-main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
-    target: _blank
+---
+toc: true
+toc_sticky: true
+---
 ```
 
-Which will give you a responsive masthead similar to this:
+## HTML Elements
 
-![priority plus masthead animation]({{ "/assets/images/mm-priority-plus-masthead.gif" | relative_url }})
+Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
-Optionally, you can add a `description` key per title in the `main` key. This `description` will show up like a tooltip, when the user hovers over the link on a desktop browser.
+## Body text
 
-**ProTip:** Put the most important links first so they're always visible and not hidden behind the **menu toggle**.
-{: .notice--info}
+Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
-## Breadcrumbs (beta)
+![Smithsonian Image]({{ site.url }}{{ site.baseurl }}/assets/images/3953273590_704e3899d5_m.jpg)
+{: .image-right}
 
-Enable breadcrumb links to help visitors better navigate deep sites. Because of the fragile method of implementing them they don't always produce accurate links reliably. For best results:
+*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
-1. Use a category based permalink structure e.g. `permalink: /:categories/:title/`
-2. Manually create pages for each category or use a plugin like [jekyll-archives](https://github.com/jekyll/jekyll-archives) to auto-generate them. If these pages don't exist breadcrumb links to them will be broken.
+HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
 
-![breadcrumb navigation example]({{ "/assets/images/mm-breadcrumbs-example.jpg" | relative_url }})
+### Blockquotes
 
-```yaml
-breadcrumbs: true  # disabled by default
+> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
+
+## List Types
+
+### Ordered Lists
+
+1. Item one
+   1. sub item one
+   2. sub item two
+   3. sub item three
+2. Item two
+
+### Unordered Lists
+
+* Item one
+* Item two
+* Item three
+
+## Tables
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|----
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=====
+| Foot1   | Foot2   | Foot3
+{: rules="groups"}
+
+## Code Snippets
+
+```css
+#container {
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
+}
 ```
 
-Breadcrumb start link text and separator character can both be changed in `_data/ui-text.yml`.
+## Buttons
 
-```yaml
-breadcrumb_home_label : "Home"
-breadcrumb_separator  : "/"
+Make any link standout more when applying the `.btn` class.
+
+```html
+<a href="#" class="btn btn--success">Success Button</a>
 ```
 
-For breadcrumbs that resemble something like `Start > Blog > My Awesome Post` you'd apply these settings:
+<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
+<div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
+<div markdown="0"><a href="#" class="btn btn--warning">Warning Button</a></div>
+<div markdown="0"><a href="#" class="btn btn--danger">Danger Button</a></div>
+<div markdown="0"><a href="#" class="btn btn--info">Info Button</a></div>
 
-```yaml
-breadcrumb_home_label : "Start"
-breadcrumb_separator  : ">"
-```
+## Notices
 
-## Custom sidebar navigation menu
-
-See the [**sidebars** documentation]({{ "/docs/layouts/#custom-sidebar-navigation-menu" | relative_url }}) for information on setting up a custom navigation menu.
+**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
+{: .notice}
