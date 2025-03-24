@@ -7,18 +7,33 @@ header:
   show_overlay_excerpt: true
 ---
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Particles Test</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Particles Hello</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #000;
+    }
+    #tsparticles {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+    }
+  </style>
 </head>
 <body>
-  <div id="particles-js"></div>
+  <div id="tsparticles"></div>
 
-  <h1 style="position: relative; z-index: 1; text-align: center;">Welcome to My Dev Blog</h1>
+  <!-- Load tsParticles via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="/assets/js/particles.js"></script>
+  <!-- Load your custom JS -->
+  <script src="particles-text.js"></script>
 </body>
 </html>
