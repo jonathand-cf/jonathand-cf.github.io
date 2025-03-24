@@ -6,10 +6,14 @@ header:
   overlay_filter: "0"
   show_overlay_excerpt: true
 ---
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Particles Hello</title>
+
   <style>
     body, html {
       margin: 0;
@@ -17,6 +21,7 @@ header:
       height: 100%;
       background: #000;
     }
+
     #tsparticles {
       width: 100%;
       height: 100%;
@@ -25,12 +30,15 @@ header:
     }
   </style>
 </head>
+
 <body>
+  <!-- Particle canvas -->
   <div id="tsparticles"></div>
 
   <!-- Load tsParticles via CDN -->
   <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
 
-  <!-- Load your custom JS -->
-  <script src="particles-text.js"></script>
+  <!-- Load your custom JS file -->
+  <script src="/assets/js/particles-text.js"></script>
 </body>
+</html>
