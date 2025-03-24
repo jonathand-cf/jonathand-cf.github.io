@@ -20,7 +20,12 @@
   .skill-bar-bg {
     position: relative;
     height: 1.25rem;
-    background-color: #444; // bar background color
+    background-image: repeating-linear-gradient(
+      45deg,
+      rgba(255,255,255,0.2),
+      rgba(255,255,255,0.2) 10px,
+      transparent 10px,
+      transparent 20px  );
     border-radius: 4px;
     overflow: hidden;
   }
