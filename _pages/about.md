@@ -1,9 +1,8 @@
 ---
 permalink: /about/
 title: "Om meg"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 last_modified_at: 2025-03-24T01:23:26-04:00
-toc: true
+author_profile: false
 ---
 
 ## Hei!
