@@ -1,7 +1,6 @@
 {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
-<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
-  style="...">
-  
+{% if page.header.overlay_color or page.header.overlay_image %}
+  <div class="wrapper">
   {% if page.url == "/" %}
     <div id="particles-js"></div>
   {% endif %}
