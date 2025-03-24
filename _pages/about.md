@@ -5,8 +5,6 @@ last_modified_at: 2025-03-24T11:59:26-04:00
 title: "About me:"
 ---
 
-## Hello!
-
 My name is **Jonathan Fedje**, and I’m studying Computer Engineering at the University of Agder. Alongside my studies, I work as a software engineer at [UiASub](https://uiasub.no), where I’m developing skills in programming, system design, and technical problem-solving.
 
 I have previous experience from **IKT Agder** and **POWER Grimstad**, where I worked with communication, customer service, and technical support. These roles strengthened my ability to collaborate effectively and solve problems in a team environment.
