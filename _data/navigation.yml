@@ -2,7 +2,13 @@
 main:
   - title: "About"
     url: /about/
+
   - title: "Projects"
     url: /projects/
+
   - title: "Sitemap"
     url: /sitemap/
+  
+  - title: CV
+    url: /jonathancv.pdf
+    alt: Curriculum Vitae
