@@ -71,8 +71,6 @@ Programs:
 
 ---
 
-## Programming Skills
-
 <section class="skill-bars">
   <h2>Programming Skills</h2>
 
