@@ -1,8 +1,7 @@
 ---
 layout: archive
-title: "Om meg"
 permalink: /about/
-modified: 2025-03-24
+last_modified_at: 2025-03-24T11:59:26-04:00
 ---
 
 ## Hei!
