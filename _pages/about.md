@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: "Om meg"
 permalink: /about/
 modified: 2025-03-24
