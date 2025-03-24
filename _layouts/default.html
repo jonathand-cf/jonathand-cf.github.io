@@ -41,6 +41,12 @@
 
     {% include scripts.html %}
 
-  
+    <script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
+    <script>
+      particlesJS.load('particles-js', '/assets/js/particles.json', function() {
+        console.log('Particles.js config loaded');
+      });
+</script>
+
   </body>
 </html>
