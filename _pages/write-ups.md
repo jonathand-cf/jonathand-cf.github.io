@@ -1,7 +1,7 @@
 ---
-title: "Write ups"
+title: "Write Ups"
+layout: category
 permalink: /write-ups/
-layout: categories
-categories: write-ups
+taxonomy: write-ups
 author_profile: true
 ---
