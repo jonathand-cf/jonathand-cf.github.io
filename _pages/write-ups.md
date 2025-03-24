@@ -1,9 +1,9 @@
 ---
 permalink: /write-ups/
 author_profile: true
-excerpt: "Descriptions and samples of all layouts included with the theme and how to best use them."
 layout: collection
 collection: write-ups
+breadcrumbs: true  # disabled by default
 toc: true
 toc_label: "Included Layouts"
 toc_icon: "columns"
