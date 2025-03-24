@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "About"
+  - title: "Om meg"
     url: /about/
 
-  - title: "Projects"
-    url: /projects/
+  - title: "Innlegg"
+    url: /categories/
 
-  - title: "Sitemap"
+  - title: "Sider"
     url: /sitemap/
   
   - title: CV
