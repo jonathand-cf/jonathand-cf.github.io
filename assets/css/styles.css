@@ -8,7 +8,7 @@
   pointer-events: none;
 }
 
-.page__hero--overlay {
+.page__hero {
   position: relative;
   overflow: hidden;
 }
