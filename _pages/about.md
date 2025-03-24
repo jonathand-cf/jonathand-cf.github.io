@@ -2,9 +2,10 @@
 layout: archive
 permalink: /about/
 last_modified_at: 2025-03-24T11:59:26-04:00
+title: "About me:"
 ---
 
-## Hi!
+## Hello!
 
 My name is **Jonathan Fedje**, and I’m studying Computer Engineering at the University of Agder. Alongside my studies, I work as a software engineer at [UiASub](https://uiasub.no), where I’m developing skills in programming, system design, and technical problem-solving.
 
