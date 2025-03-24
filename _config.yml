@@ -15,13 +15,13 @@ remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "no-NB"
+locale                   : "en"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Jonathancf"
+title                    : "Jonathan's dev blog"
 title_separator          : "-"
 subtitle                 : "dev blog" # site tagline that appears below site title in masthead
 name                     : "Jonathan Fedje"
-description              : "Dokumentasjon og prosjekter som jeg har lagd"
+description              : "Documentation and projects as a blog"
 url                      : "https://jonathancf.dev/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jonathand-cf/jonathand-cf.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -117,7 +117,7 @@ analytics:
 author:
   name             : "Jonathan Fedje"
   avatar           : "/assets/images/1654557885339.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Studerer dataingeniørstudent ved UiA, programvareingeniør hos UiASub, interessert i teknologi og innovasjon."
+  bio              : "Studying Computer Engineering at UiA, software engineer at UiASub, passionate about technology and innovation."
   location         : "Grimstad | Norway"
   email            : "seJonathanda@pm.me"
   links:
@@ -139,7 +139,10 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jonathanfedje/"
+  
 # Site Footer
 footer:
   links:

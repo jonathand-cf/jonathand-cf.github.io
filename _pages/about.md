@@ -4,16 +4,16 @@ permalink: /about/
 last_modified_at: 2025-03-24T11:59:26-04:00
 ---
 
-## Hei!
+## Hi!
 
-Jeg heter **Jonathan Fedje**, og jeg studerer dataingeniør ved Universitetet i Agder. Ved siden av studiene jobber jeg som programvareingeniør hos [UiASub](https://uiasub.no), der jeg utvikler ferdigheter innen programmering, systemdesign og teknisk problemløsning.
+My name is **Jonathan Fedje**, and I’m studying Computer Engineering at the University of Agder. Alongside my studies, I work as a software engineer at [UiASub](https://uiasub.no), where I’m developing skills in programming, system design, and technical problem-solving.
 
-Jeg har tidligere erfaring fra **IKT Agder** og **POWER Grimstad**, hvor jeg jobbet med kommunikasjon, kundeservice og teknisk support. Disse erfaringene har styrket evnen min til effektivt samarbeid og problemløsning i team.
+I have previous experience from **IKT Agder** and **POWER Grimstad**, where I worked with communication, customer service, and technical support. These roles strengthened my ability to collaborate effectively and solve problems in a team environment.
 
-Teknologi og innovasjon er mine store interesser. Jeg elsker å bruke teknologi til å skape praktiske løsninger og tar gjerne nye utfordringer.
+Technology and innovation are my biggest passions. I love using technology to create practical solutions and gladly take on new challenges.
 
-Når jeg ikke koder eller studerer, bruker jeg tid på egne prosjekter, utforsker nye teknologier eller deltar i faglige nettverk for å utveksle ideer og erfaringer.
+When I’m not coding or studying, I spend time on personal projects, explore new technologies, or participate in professional networks to exchange ideas and experiences.
 
-Du finner mine prosjekter og kode på [GitHub](https://github.com/jonathand-cf).
+You can find my projects and code on [GitHub](https://github.com/jonathand-cf).
 
-Ta gjerne kontakt dersom du ønsker å diskutere teknologi eller innovasjon!
+Feel free to reach out if you’d like to discuss technology or innovation!
