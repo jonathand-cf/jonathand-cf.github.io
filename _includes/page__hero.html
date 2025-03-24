@@ -1,14 +1,18 @@
 {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
-<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
-  style="...">
+<div class="hero-content-with-particles">
   {% if page.url == "/" %}
     <div id="particles-js"></div>
   {% endif %}
 
-  <div class="wrapper">
-    <!-- your title, excerpt, etc. -->
-  </div>
+  <h1 id="page-title" class="page__title" itemprop="headline">
+    {{ page.title | default: site.title }}
+  </h1>
+
+  {% if page.excerpt %}
+    <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+  {% endif %}
 </div>
+
 
 {% if page.header.overlay_filter contains "gradient" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
