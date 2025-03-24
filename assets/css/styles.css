@@ -1,0 +1,19 @@
+.hero-particles {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%; /* only on the right side */
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.page__hero--overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1; /* keeps text and profile above particles */
+}
