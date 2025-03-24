@@ -5,6 +5,9 @@ main:
 
   - title: "Posts"
     url: /categories/
+  
+  - title: "Write ups"
+    url: /write-ups/
 
   - title: "All Pages"
     url: /sitemap/
