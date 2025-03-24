@@ -2,10 +2,10 @@
 layout: archive
 permalink: /about/
 last_modified_at: 2025-03-24T11:59:26-04:00
-title: "About me:"
+title: "About me"
 ---
-
-My name is **Jonathan Fedje**, and I’m studying Computer Engineering at the University of Agder. Alongside my studies, I work as a software engineer at [UiASub](https://uiasub.no), where I’m developing skills in programming, system design, and technical problem-solving.
+Hello! My name is **Jonathan Fedje**
+I am an aspiring cybersecurity specialist currently studying Computer Engineering at the University of Agder. Alongside my studies, I work as a software engineer at [UiASub](https://uiasub.no), where I’m developing skills in programming, system design, and technical problem-solving.
 
 I have previous experience from **IKT Agder** and **POWER Grimstad**, where I worked with communication, customer service, and technical support. These roles strengthened my ability to collaborate effectively and solve problems in a team environment.
 
@@ -68,3 +68,13 @@ Programs:
 ![CLion](https://img.shields.io/badge/clion-143?style=for-the-badge&logo=clion&logoColor=black&color=black&labelColor=green)
 ![Notion](https://img.shields.io/badge/notion-%23483699.svg?style=for-the-badge&logo=notion&logoColor=white)
 ![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=black)
+
+---
+
+<div class="row">
+{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+</div>
+
+<div class="row">
+{% include about/timeline.html %}
+</div>
