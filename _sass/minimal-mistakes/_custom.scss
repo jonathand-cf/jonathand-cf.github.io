@@ -1,30 +1,47 @@
-/* skill bars */
-.skill-bar {
+.skill-bars {
+    max-width: 600px;  // optional: control container width
+    margin: 2rem auto; // center it on the page
+  }
+  
+  .skill-bar {
     margin-bottom: 1.5rem;
   }
   
   .skill-bar-header {
     display: flex;
     justify-content: space-between;
-    font-weight: 600;
+    align-items: center;
     margin-bottom: 0.3rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #fff; // adjust if your site background is light
   }
   
   .skill-bar-bg {
-    background-color: #e6e6e6; /* Light grey background */
-    border-radius: 3px;
-    overflow: hidden;
-    height: 1.2rem;
     position: relative;
+    height: 1.25rem;
+    background-color: #444; // bar background color
+    border-radius: 4px;
+    overflow: hidden;
   }
   
   .skill-bar-fill {
-    background-color: #c0392b; /* The "fill" color (red in example) */
+    background-color: #e74c3c; // bar fill color
+    width: 0;                  // start at 0, then animate in
     height: 100%;
+    border-radius: 4px;
+    animation: fillAnimation 2s forwards;
+  }
+  
+  /* Animate the width from 0 to the custom property --skill-level */
+  @keyframes fillAnimation {
+    to {
+      width: var(--skill-level);
+    }
   }
   
   .skill-bar-percentage {
     font-size: 0.9rem;
-    color: #666;
+    color: #ccc; // adjust to your liking
   }
   

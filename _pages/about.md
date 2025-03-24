@@ -73,6 +73,36 @@ Programs:
 
 ## Programming Skills
 
-{% include skill-bar.html name="Git" percent="60" %}
-{% include skill-bar.html name="C/C++" percent="30" %}
-{% include skill-bar.html name="Python" percent="20" %}
+<section class="skill-bars">
+  <h2>Programming Skills</h2>
+
+  <div class="skill-bar" style="--skill-level: 60%;">
+    <div class="skill-bar-header">
+      <span>Git</span>
+      <span class="skill-bar-percentage">60%</span>
+    </div>
+    <div class="skill-bar-bg">
+      <div class="skill-bar-fill"></div>
+    </div>
+  </div>
+
+  <div class="skill-bar" style="--skill-level: 30%;">
+    <div class="skill-bar-header">
+      <span>C/C++</span>
+      <span class="skill-bar-percentage">30%</span>
+    </div>
+    <div class="skill-bar-bg">
+      <div class="skill-bar-fill"></div>
+    </div>
+  </div>
+
+  <div class="skill-bar" style="--skill-level: 20%;">
+    <div class="skill-bar-header">
+      <span>Python</span>
+      <span class="skill-bar-percentage">20%</span>
+    </div>
+    <div class="skill-bar-bg">
+      <div class="skill-bar-fill"></div>
+    </div>
+  </div>
+</section>
