@@ -70,13 +70,3 @@ Programs:
 ![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=black)
 
 ---
-
-<div class="row">
-  {% include about/skills.html 
-     title="Programming Skills" 
-     source=site.data.programming-skills %}
-</div>
-
-<div class="row">
-  {% include about/timeline.html %}
-</div>
