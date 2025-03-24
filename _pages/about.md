@@ -1,7 +1,7 @@
 ---
-permalink: /about/
 title: "Om meg"
-last_modified_at: 2025-03-24T01:23:26-04:00
+permalink: /about/
+modified: 2025-03-24
 ---
 
 ## Hei!
