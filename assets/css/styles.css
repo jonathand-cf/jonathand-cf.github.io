@@ -7,7 +7,7 @@
     z-index: 0;
   }
   
-  .page__hero--overlay {
+  .page__hero {
     position: relative;
     z-index: 1;
   }
