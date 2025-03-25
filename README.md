@@ -9,8 +9,8 @@
    bundle
    ```
 5. Launch the website using
-```
-bundle exec jekyll serve
-```
+   ```bash
+   bundle exec jekyll serve
+   ```
 Which will make it available at http://localhost:4000,
 where changes saved locally will take effect and you can tinker with the website.
