@@ -2,7 +2,7 @@
 title: "Adding Ruby to Windows Terminal"
 categories: tutorials
 open_new_tab: true
-enable_copy_code_button: true
+enable_copy_code_button : true
 author_profile: false
 toc: true
 ---
@@ -30,19 +30,21 @@ Scroll to the bottom on the *left pane* and click:
 
 If Ruby was installed at ```%SystemDrive%\RubyXX-XXX``` open the *Command line* dropdown and paste:
 
-```batch
-%SystemRoot%\System32\cmd.exe /E:ON /K "C:\Ruby33-x64\bin\ridk enable && cls"
-```
+```%SystemRoot%\System32\cmd.exe /E:ON /K "C:\Ruby33-x64\bin\ridk enable && cls"```
+
+**Change ```Ruby33-x64``` to whatever version of ruby you installed**
 
 ![Command line](/assets/images/rubyCommandLine.png)
 
 ### Done
 
+Remember to save
+
 #### Add an icon
 
 You should also find the Ruby icon here:
 
-```batch
+```
 %SystemDrive%\Ruby33-x64\share\doc\ruby\html\images\ruby-doc.ico
 ```
 

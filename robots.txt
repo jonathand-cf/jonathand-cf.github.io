@@ -2,10 +2,16 @@
 layout: null
 sitemap: false
 ---
+
 # https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Disallow:
 
 User-agent: TurnitinBot
 Disallow: /
+
+Sitemap: {{ 'sitemap.xml' | absolute_url }}
 
 # From https://chatgpt.com/robots.txt
 
@@ -38,8 +44,3 @@ Disallow: /
 
 User-agent: magpie-crawler
 Disallow: /
-
-User-agent: *
-Disallow:
-
-Sitemap: {{ 'sitemap.xml' | absolute_url }}
