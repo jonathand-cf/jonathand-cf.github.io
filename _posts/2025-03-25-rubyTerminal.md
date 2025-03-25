@@ -30,7 +30,9 @@ Scroll to the bottom on the *left pane* and click:
 
 If Ruby was installed at ```%SystemDrive%\RubyXX-XXX``` open the *Command line* dropdown and paste:
 
-```%SystemRoot%\System32\cmd.exe /E:ON /K "C:\Ruby33-x64\bin\ridk enable && cls"```
+```
+%SystemRoot%\System32\cmd.exe /E:ON /K "C:\Ruby33-x64\bin\ridk enable && cls"
+```
 
 **Change ```Ruby33-x64``` to whatever version of ruby you installed**
 
