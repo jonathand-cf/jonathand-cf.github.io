@@ -2,7 +2,7 @@
 title: "Adding Ruby to Windows Terminal"
 categories: tutorials
 open_new_tab: true
-enable_copy_code_button : true
+toc_sticky: true
 author_profile: false
 toc: true
 ---
