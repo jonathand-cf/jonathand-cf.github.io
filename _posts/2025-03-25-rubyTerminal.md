@@ -10,7 +10,7 @@ toc: true
 
 ### First you need to install Ruby
 
-I used [RubyInstaller](https://rubyinstaller.org/downloads/) with Devkit, but you can get it [however you like](https://www.ruby-lang.org/en/documentation/installation/#ruby-install).
+I used [RubyInstaller](https://rubyinstaller.org/downloads/) with Devkit, but you can get it [however you like](https://www.ruby-lang.org/en/documentation/installation).
 
 Now Ruby should be installed at ```%SystemDrive%\RubyXX-XXX```
 
