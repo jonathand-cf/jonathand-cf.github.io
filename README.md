@@ -1,3 +1,4 @@
+[![wakatime](https://wakatime.com/badge/github/jonathand-cf/jonathand-cf.github.io.svg)](https://wakatime.com/badge/github/jonathand-cf/jonathand-cf.github.io)
 ## Test the build: 
 1. Clone this repo
 2. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/#rubyinstaller)
