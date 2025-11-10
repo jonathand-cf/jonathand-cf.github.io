@@ -4,6 +4,14 @@ layout: category
 permalink: /write-ups/
 taxonomy: write-ups
 author_profile: true
+open_new_tab: true
 ---
 
-There aren't any write ups yet, but when i make one, it will show up here
+A collection of short project write-ups and reports.
+
+## Equinor CTF
+
+- [EPT 2025 — 420BasedIt](https://github.com/ept-team/equinor-ctf-2025/tree/main/writeups/crypto/420BasedIt/UiACTF) — Based encrypted text.
+- [EPT 2025 — Agents](https://github.com/ept-team/equinor-ctf-2025/tree/main/writeups/misc/Agents/UiACTF) — Trick AI to give you the flag.
+
+---

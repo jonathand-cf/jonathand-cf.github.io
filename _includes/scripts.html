@@ -26,3 +26,27 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<script>
+// Ensure external links open in a new tab (adds target and rel) — mirrors the explicit
+// anchors you used in `os.md`. This runs client-side so we don't need to edit every post.
+document.addEventListener('DOMContentLoaded', function () {
+  var anchors = document.querySelectorAll('a[href^="http"]');
+  anchors.forEach(function (a) {
+    try {
+      var url = new URL(a.href);
+      if (url.host !== window.location.host) {
+        // only set if not already present
+        if (!a.hasAttribute('target')) a.setAttribute('target', '_blank');
+        // ensure rel contains noopener noreferrer
+        var rel = (a.getAttribute('rel') || '').split(/\s+/).filter(Boolean);
+        if (rel.indexOf('noopener') === -1) rel.push('noopener');
+        if (rel.indexOf('noreferrer') === -1) rel.push('noreferrer');
+        a.setAttribute('rel', rel.join(' '));
+      }
+    } catch (e) {
+      // ignore malformed URLs
+    }
+  });
+});
+</script>
