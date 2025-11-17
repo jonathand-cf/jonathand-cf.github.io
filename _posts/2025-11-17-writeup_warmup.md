@@ -21,7 +21,7 @@ Though this writeup only covers the warmup challenge (all I had time for), I fou
 **Description:**  
 > Just a normal warmup challenge. Here are the guest credentials: `guest:guest123`. The flag is in `/flag.txt`. — @qlashx
 
-**Challenge URL:** <https://pwnsec.ctf.ae/app/challenges/warmup>
+**CTF URL:** <https://pwnsec.ctf.ae/>
 
 ---
 
