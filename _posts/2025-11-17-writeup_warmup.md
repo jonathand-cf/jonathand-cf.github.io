@@ -2,7 +2,7 @@
 title: "PwnSec CTF 2025 - Warmup Challenge Writeup"
 categories: writeups
 open_new_tab: true
-author_profile: false
+author_profile: true
 classes: wide
 ---
 
