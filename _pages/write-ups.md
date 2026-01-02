@@ -9,16 +9,23 @@ open_new_tab: true
 
 A collection of short project write-ups and reports.
 
-## Equinor CTF 2025
+<details open markdown="1">
+<summary><strong>Equinor CTF 2025</strong></summary>
 
 - [EPT 2025 — 420BasedIt](https://github.com/ept-team/equinor-ctf-2025/tree/main/writeups/crypto/420BasedIt/UiACTF) — Based encrypted text.
 - [EPT 2025 — Agents](https://github.com/ept-team/equinor-ctf-2025/tree/main/writeups/misc/Agents/UiACTF) — Trick AI to give you the flag.
 
-## PwnSec CTF 2025
+</details>
+
+<details markdown="1">
+<summary><strong>PwnSec CTF 2025</strong></summary>
 
 - [PwnSec 2025 – warmup](https://jonathancf.dev/writeups/writeup_warmup/) – Admin access and file crawling.
 
-## Cyberlandslaget juleCTF 2025
+</details>
+
+<details markdown="1">
+<summary><strong>Cyberlandslaget juleCTF 2025</strong></summary>
 
 - [Luke 1: Cyber Quest for Santa 1](https://github.com/jonathand-cf/juleCTF/edit/main/Luke_1) — Solved write-up for Cyber Quest for Santa 1.
 - [Luke 2: Reindeer Tryouts](https://github.com/jonathand-cf/juleCTF/edit/main/Luke_2) — Solved write-up for Reindeer Tryouts.
@@ -45,5 +52,7 @@ A collection of short project write-ups and reports.
 - [Luke 22: Melkebar](https://github.com/jonathand-cf/juleCTF/edit/main/Luke_22) — Solved write-up for Melkebar.
 - [Luke 23: Cookie Clicker](https://github.com/jonathand-cf/juleCTF/edit/main/Luke_23) — Solved write-up for Cookie Clicker.
 - [Luke 24: Cyber Quest for Santa 4](https://github.com/jonathand-cf/juleCTF/edit/main/Luke_24) — Solved write-up for Cyber Quest for Santa 4.
+
+</details>
 
 ---
