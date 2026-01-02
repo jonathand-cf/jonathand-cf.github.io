@@ -9,16 +9,16 @@ open_new_tab: true
 
 A collection of short project write-ups and reports.
 
-## Equinor CTF
+## Equinor CTF 2025
 
 - [EPT 2025 — 420BasedIt](https://github.com/ept-team/equinor-ctf-2025/tree/main/writeups/crypto/420BasedIt/UiACTF) — Based encrypted text.
 - [EPT 2025 — Agents](https://github.com/ept-team/equinor-ctf-2025/tree/main/writeups/misc/Agents/UiACTF) — Trick AI to give you the flag.
 
-## PwnSec CTF
+## PwnSec CTF 2025
 
 - [PwnSec 2025 – warmup](https://jonathancf.dev/writeups/writeup_warmup/) – Admin access and file crawling.
 
-## Cyberlandslaget juleCTF
+## Cyberlandslaget juleCTF 2025
 
 - [Luke 1: Cyber Quest for Santa 1](https://github.com/jonathand-cf/juleCTF/edit/main/Luke_1) — Solved write-up for Cyber Quest for Santa 1.
 - [Luke 2: Reindeer Tryouts](https://github.com/jonathand-cf/juleCTF/edit/main/Luke_2) — Solved write-up for Reindeer Tryouts.
