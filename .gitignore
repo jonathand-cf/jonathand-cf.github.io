@@ -4,6 +4,7 @@
 
 # IntelliJ IDEA
 *.idea
+*.fleet
 
 # Sublime Text
 *.sublime-project
