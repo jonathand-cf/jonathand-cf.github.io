@@ -1,10 +1,9 @@
 {% assign locale = include.locale | default: site.locale %}
 {% unless site.show_taxonomy == false %}
   {% if site.tag_archive.type and page.tags[0] %}
-    {% include tag-list.html locale=locale %}
+  {% include tag-list.html %}
   {% endif %}
 
   {% if site.category_archive.type and page.categories[0] %}
-    {% include category-list.html locale=locale %}
+  {% include category-list.html %}
   {% endif %}
-{% endunless %}

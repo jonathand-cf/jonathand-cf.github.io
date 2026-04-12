@@ -18,16 +18,15 @@ Billy Rick:
   name        : "Billy Rick"
   bio         : "What do you want, jewels? I am a very extravagant man."
   avatar      : "/assets/images/bio-photo-2.jpg"
-  fediverse   : "@billyrick@instance.social"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:billyrick@rick.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://thewhip.com"
     - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/extravagantman"
 
 Cornelius Fiddlebone:
@@ -36,10 +35,10 @@ Cornelius Fiddlebone:
   avatar      : "/assets/images/bio-photo.jpg"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:cornelius@thewhip.com"
     - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/rhymeswithsackit"
 ```
 
