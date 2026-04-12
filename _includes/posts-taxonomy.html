@@ -1,3 +1,4 @@
+{% assign locale = include.locale | default: site.locale %}
 {% assign items_max = 0 %}
 {% for item in include.taxonomies %}
   {% if item[1].size > items_max %}

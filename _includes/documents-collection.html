@@ -1,3 +1,4 @@
+{% assign locale = include.locale | default: site.locale %}
 {% assign entries = include.entries | default: site[include.collection] | where_exp: "post", "post.hidden != true" %}
 
 {% if include.sort_by %}

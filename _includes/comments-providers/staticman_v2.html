@@ -1,3 +1,4 @@
+{% assign locale = include.locale | default: site.locale %}
 {% if site.repository and site.comments.staticman.branch %}
   <script>
     (function ($) {

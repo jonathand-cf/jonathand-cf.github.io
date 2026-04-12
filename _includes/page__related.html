@@ -1,3 +1,4 @@
+{% assign locale = include.locale | default: site.locale %}
 {% assign posts = include.posts | where_exp: "post", "post.hidden != true" %}
 <div class="page__related">
   {% include before-related.html %}
