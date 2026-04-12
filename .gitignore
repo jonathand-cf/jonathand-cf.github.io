@@ -4,6 +4,7 @@
 
 # IntelliJ IDEA
 *.idea
+*.fleet
 
 # Sublime Text
 *.sublime-project
@@ -30,3 +31,5 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Temporary until done
