@@ -32,4 +32,6 @@ codekit-config.json
 _asset_bundler_cache
 _site
 
+# User-uploaded images
+assets/images/
 # Temporary until done
