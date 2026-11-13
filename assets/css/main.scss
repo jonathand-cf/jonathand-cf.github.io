@@ -7,3 +7,172 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Full-viewport interactive background Particles on Homepage */
+#particles-js {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.masthead,
+.initial-content,
+.search-content,
+.page__footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Live GitHub & CTF Telemetry Strip */
+.gh-dashboard {
+  margin-bottom: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.gh-dashboard__stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+}
+
+.gh-stat {
+  display: flex;
+  flex-direction: column;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  background: rgba(20, 22, 30, 0.78);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  text-decoration: none !important;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+
+  &:hover {
+    background: rgba(8, 146, 208, 0.14);
+    border-color: rgba(8, 146, 208, 0.55);
+  }
+}
+
+.gh-stat__value {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #f6f930;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &--mono {
+    font-size: 1rem;
+    font-family: monospace;
+    color: #38bdf8;
+    padding-top: 0.15rem;
+  }
+}
+
+.gh-stat__label {
+  margin-top: 0.25rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.gh-dashboard__graph {
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  background: rgba(20, 22, 30, 0.78);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.gh-dashboard__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.gh-dashboard__title {
+  font-weight: 600;
+}
+
+.gh-dashboard__sublink {
+  font-size: 0.75rem;
+  text-transform: none;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.gh-chart-wrapper {
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.gh-chart-img {
+  width: 100%;
+  min-width: 560px;
+  display: block;
+  filter: invert(1) hue-rotate(180deg) brightness(1.15) contrast(1.15);
+  mix-blend-mode: screen;
+}
+
+/* Modern Post Cards in Archive & Homepage Lists */
+.entries-list .list__item .archive__item {
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background: rgba(20, 22, 30, 0.72);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  &:hover {
+    background: rgba(26, 30, 42, 0.85);
+    border-color: rgba(8, 146, 208, 0.5);
+  }
+
+  .archive__item-title {
+    margin-top: 0;
+  }
+
+  .archive__item-excerpt {
+    margin-bottom: 0;
+  }
+}
+
+/* Styled <details> blocks on Write-Ups page */
+.page__content details {
+  margin-bottom: 1rem;
+  padding: 0.85rem 1.25rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  summary {
+    cursor: pointer;
+    padding: 0.2rem 0;
+  }
+
+  &[open] summary {
+    margin-bottom: 0.65rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}

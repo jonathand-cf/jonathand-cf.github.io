@@ -4,6 +4,9 @@ categories: writeups
 open_new_tab: true
 author_profile: true
 classes: wide
+excerpt: "Exploiting an IDOR vulnerability in password reset and bypassing web crawler filters with file:// SSRF to capture the flag."
+header:
+  teaser: /assets/images/pwnsecWriteup/admin_panel.png
 ---
 
 Though this writeup only covers the warmup challenge (all I had time for), I found it interesting enough to document. Here's how I approached it.

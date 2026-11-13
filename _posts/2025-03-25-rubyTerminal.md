@@ -5,6 +5,9 @@ open_new_tab: true
 toc_sticky: true
 author_profile: false
 toc: true
+excerpt: "Quick guide on configuring a dedicated Ruby with DevKit profile and icon inside Windows Terminal."
+header:
+  teaser: /assets/images/terminalOpen.png
 ---
 ## How to add Ruby to windows terminal
 

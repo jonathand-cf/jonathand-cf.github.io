@@ -1,10 +1,13 @@
 ---
-title: "Jellyfin 2FA: A standalone login flow for TOTP"
+title: "Jellyfin 2FA: A Standalone Login Flow for TOTP"
 categories: projects
 open_new_tab: true
 author_profile: true
 toc: true
 toc_sticky: true
+excerpt: "A standalone TOTP two-factor authentication plugin and login flow for Jellyfin at /sso/2fa without modifying jellyfin-web."
+header:
+  teaser: /assets/images/jlfin2fa.png
 ---
 
 This plugin adds a standalone 2FA login flow for Jellyfin and backend endpoints for enrolling users in TOTP.

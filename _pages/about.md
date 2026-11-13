@@ -1,32 +1,33 @@
 ---
 layout: archive
 permalink: /about/
-last_modified_at: 2025-03-24T11:59:26-04:00
-title: "About me"
+last_modified_at: 2026-11-13T18:30:00+01:00
+title: "About Me"
+author_profile: true
 ---
-Hello! My name is **Jonathan Fedje**
-I am an aspiring cybersecurity specialist currently studying Computer Engineering at the University of Agder. Alongside my studies, I work as a software engineer at [UiASub](https://uiasub.no), where I’m developing skills in programming, system design, and technical problem-solving.
+Hello! My name is **Jonathan Fedje**.
+
+I am an aspiring cybersecurity specialist currently studying Computer Engineering at the University of Agder (UiA). Alongside my studies, I work as a software engineer at [UiASub](https://uiasub.no), where I develop skills in programming, embedded & system design, and technical problem-solving.
 
 I have previous experience from **IKT Agder** and **POWER Grimstad**, where I worked with communication, customer service, and technical support. These roles strengthened my ability to collaborate effectively and solve problems in a team environment.
 
-Technology and innovation are my biggest passions. I love using technology to create practical solutions and gladly take on new challenges.
+Technology and innovation are my biggest passions. I love using technology to create practical solutions and gladly take on new challenges—from building hardware air mice and C++ games to competing in CTFs and hardening self-hosted infrastructure.
 
 When I’m not coding or studying, I spend time on personal projects, explore new technologies, or participate in professional networks to exchange ideas and experiences.
 
-You can find my projects and code on [GitHub](https://github.com/jonathand-cf).
+You can find my projects and code on [GitHub](https://github.com/jonathand-cf), or view my [Curriculum Vitae (PDF)](/jonathancv.pdf).
 
-Feel free to reach out if you’d like to discuss technology or innovation!
+Feel free to reach out if you’d like to discuss technology, security, or innovation!
 
 ---
 
-Roles:
-<br>
-![System Administrator](https://img.shields.io/badge/System-Administrator-blue?style=for-the-badge&logo=microsoft-office&logoColor=white)
-![Cyber Security](https://img.shields.io/badge/Cyber-Sec-black?style=for-the-badge&logo=microsoft-office&logoColor=white)
-![IT Service](https://img.shields.io/badge/IT-Service-blue?style=for-the-badge&logo=microsoft-office&logoColor=white)
+### Roles & Focus Areas
+![System Administrator](https://img.shields.io/badge/System-Administrator-0892d0?style=for-the-badge&logo=linux&logoColor=white)
+![Cyber Security](https://img.shields.io/badge/Cyber-Security-111827?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Software Engineering](https://img.shields.io/badge/Software-Engineering-0f766e?style=for-the-badge&logo=cplusplus&logoColor=white)
+![IT Service](https://img.shields.io/badge/IT-Service-1d4ed8?style=for-the-badge&logo=gnubash&logoColor=white)
 
-Languages:
-<br>
+### Languages
 ![C](https://img.shields.io/badge/C-%231572B6.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-%231572B6?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -36,8 +37,7 @@ Languages:
 ![Bash](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
 
-Operating Sytems:
-<br>
+### Operating Systems
 ![Zorin](https://img.shields.io/badge/Zorin-1793D1?logo=zorin&logoColor=fff&style=for-the-badge)
 ![Kali](https://img.shields.io/badge/Kali%20Linux-000000?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
@@ -45,8 +45,7 @@ Operating Sytems:
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-Tools & Services:
-<br>
+### Tools & Services
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Wireguard](https://img.shields.io/badge/wireguard-%2388171A.svg?style=for-the-badge&logo=wireguard&logoColor=white)
 ![Wordpress](https://img.shields.io/badge/Wordpress-0078D6?style=for-the-badge&logo=wordpress&logoColor=white)
@@ -60,8 +59,7 @@ Tools & Services:
 ![Pi-Hole](https://img.shields.io/badge/pihole-%2388171A.svg?style=for-the-badge&logo=pihole&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/burp%20suite-%23E34F26.svg?style=for-the-badge&logo=burpsuite&logoColor=white)
 
-Programs:
-<br>
+### Programs
 ![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
